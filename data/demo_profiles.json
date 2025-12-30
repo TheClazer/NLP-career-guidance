@@ -1,0 +1,31 @@
+[
+    {
+        "id": "student_backend",
+        "text": "I enjoy building APIs and optimizing databases. I have used Python for small projects, wrote CRUD apps.",
+        "expected_role": "Backend Engineer",
+        "expected_skills": [
+            "Python",
+            "Databases"
+        ]
+    },
+    {
+        "id": "data_analyst",
+        "text": "I love working with SQL, spreadsheets and making charts. I have basic Python knowledge and statistics class exposure.",
+        "expected_role": "Data Analyst",
+        "expected_skills": [
+            "SQL",
+            "Statistics",
+            "Python"
+        ]
+    },
+    {
+        "id": "frontend_hopeful",
+        "text": "I design user interfaces, enjoy CSS, HTML, and React experiments.",
+        "expected_role": "Frontend Engineer",
+        "expected_skills": [
+            "React",
+            "HTML",
+            "CSS"
+        ]
+    }
+]

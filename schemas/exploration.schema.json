@@ -1,0 +1,53 @@
+{
+    "type": "object",
+    "properties": {
+        "nearby_interests": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "relevance": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "name",
+                    "description",
+                    "relevance"
+                ]
+            }
+        },
+        "opportunities": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "action": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "type",
+                    "title",
+                    "action"
+                ]
+            }
+        }
+    },
+    "required": [
+        "nearby_interests",
+        "opportunities"
+    ]
+}

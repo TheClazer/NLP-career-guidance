@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "projects": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "type": "string"
+                    },
+                    "tech_stack": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "difficulty": {
+                        "type": "string"
+                    },
+                    "learning_outcome": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "title",
+                    "tech_stack",
+                    "description",
+                    "difficulty",
+                    "learning_outcome"
+                ]
+            }
+        }
+    },
+    "required": [
+        "projects"
+    ]
+}

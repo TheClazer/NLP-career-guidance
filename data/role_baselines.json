@@ -1,0 +1,213 @@
+{
+    "Backend Engineer": {
+        "core_skills": [
+            "Python",
+            "SQL",
+            "System Design"
+        ],
+        "secondary_skills": [
+            "Docker",
+            "Linux",
+            "Git"
+        ],
+        "optional_skills": [
+            "Redis",
+            "Kubernetes"
+        ],
+        "weights": {
+            "Python": 5,
+            "SQL": 4,
+            "System Design": 5,
+            "Docker": 3,
+            "Linux": 3,
+            "Git": 2,
+            "Redis": 2,
+            "Kubernetes": 2
+        },
+        "core_penalty": 0.3
+    },
+    "Data Scientist": {
+        "core_skills": [
+            "Python",
+            "Machine Learning",
+            "Statistics"
+        ],
+        "secondary_skills": [
+            "SQL",
+            "Data Visualization"
+        ],
+        "optional_skills": [
+            "Deep Learning",
+            "MLOps"
+        ],
+        "weights": {
+            "Python": 5,
+            "Machine Learning": 5,
+            "Statistics": 5,
+            "SQL": 3,
+            "Data Visualization": 3,
+            "Deep Learning": 2,
+            "MLOps": 2
+        },
+        "core_penalty": 0.35
+    },
+    "Frontend Engineer": {
+        "core_skills": [
+            "JavaScript",
+            "React",
+            "CSS"
+        ],
+        "secondary_skills": [
+            "HTML",
+            "TypeScript"
+        ],
+        "optional_skills": [
+            "Next.js",
+            "Testing"
+        ],
+        "weights": {
+            "JavaScript": 5,
+            "React": 5,
+            "CSS": 4,
+            "HTML": 3,
+            "TypeScript": 3,
+            "Next.js": 2,
+            "Testing": 2
+        },
+        "core_penalty": 0.3
+    },
+    "DevOps Engineer": {
+        "core_skills": [
+            "Docker",
+            "Kubernetes",
+            "Linux"
+        ],
+        "secondary_skills": [
+            "Python",
+            "Bash",
+            "Git"
+        ],
+        "optional_skills": [
+            "Terraform",
+            "AWS"
+        ],
+        "weights": {
+            "Docker": 5,
+            "Kubernetes": 5,
+            "Linux": 5,
+            "Python": 3,
+            "Bash": 3,
+            "Git": 2,
+            "Terraform": 2,
+            "AWS": 2
+        },
+        "core_penalty": 0.35
+    },
+    "Full Stack Developer": {
+        "core_skills": [
+            "JavaScript",
+            "Python",
+            "SQL"
+        ],
+        "secondary_skills": [
+            "React",
+            "Node.js",
+            "Docker"
+        ],
+        "optional_skills": [
+            "MongoDB",
+            "Redis"
+        ],
+        "weights": {
+            "JavaScript": 5,
+            "Python": 4,
+            "SQL": 4,
+            "React": 3,
+            "Node.js": 3,
+            "Docker": 2,
+            "MongoDB": 2,
+            "Redis": 1
+        },
+        "core_penalty": 0.25
+    },
+    "Senior Python Developer": {
+        "core_skills": [
+            "Python",
+            "System Design",
+            "Django",
+            "FastAPI"
+        ],
+        "secondary_skills": [
+            "Docker",
+            "PostgreSQL",
+            "AWS"
+        ],
+        "optional_skills": [
+            "Kubernetes",
+            "Redis",
+            "Celery"
+        ],
+        "weights": {
+            "Python": 5,
+            "System Design": 5,
+            "Django": 4,
+            "FastAPI": 4,
+            "Docker": 3,
+            "PostgreSQL": 3,
+            "AWS": 3
+        },
+        "core_penalty": 0.3
+    },
+    "Machine Learning Engineer": {
+        "core_skills": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+        ],
+        "secondary_skills": [
+            "Docker",
+            "Kubernetes",
+            "SQL"
+        ],
+        "optional_skills": [
+            "CUDA",
+            "C++"
+        ],
+        "weights": {
+            "Python": 5,
+            "TensorFlow": 4,
+            "PyTorch": 4,
+            "MLOps": 5,
+            "Docker": 3,
+            "Kubernetes": 3
+        },
+        "core_penalty": 0.35
+    },
+    "Frontend Architect": {
+        "core_skills": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "System Design"
+        ],
+        "secondary_skills": [
+            "Next.js",
+            "GraphQL",
+            "Performance Optimization"
+        ],
+        "optional_skills": [
+            "WebAssembly",
+            "Rust"
+        ],
+        "weights": {
+            "JavaScript": 5,
+            "TypeScript": 5,
+            "React": 5,
+            "System Design": 5,
+            "Next.js": 4,
+            "GraphQL": 3
+        },
+        "core_penalty": 0.3
+    }
+}

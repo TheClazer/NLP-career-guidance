@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LLMEvaluation",
+  "type": "object",
+  "required":  ["grade", "xp_delta", "feedback"],
+  "properties": {
+    "grade": { "type": "integer", "minimum": 0, "maximum": 10 },
+    "xp_delta": { "type": "integer" },
+    "feedback": { "type": "string" }
+  },
+  "additionalProperties": false
+}

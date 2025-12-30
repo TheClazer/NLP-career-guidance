@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RoleBaseline",
+  "type": "object",
+  "required": ["required_skills", "weights"],
+  "properties": {
+    "role": { "type": "string" },
+    "required_skills": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "optional_skills": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "weights": {
+      "type": "object",
+      "patternProperties": {
+        "^.+$": { "type": ["integer", "number"], "minimum": 1, "maximum": 5 }
+      },
+      "minProperties": 1
+    }
+  },
+  "additionalProperties": true
+}

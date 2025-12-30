@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "CareerRoadmap",
+    "type": "object",
+    "required": [
+        "role",
+        "phases"
+    ],
+    "properties": {
+        "role": {
+            "type": "string"
+        },
+        "phases": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "phase_name",
+                    "duration",
+                    "topics"
+                ],
+                "properties": {
+                    "phase_name": {
+                        "type": "string"
+                    },
+                    "duration": {
+                        "type": "string"
+                    },
+                    "topics": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    "additionalProperties": false
+}
